@@ -165,6 +165,8 @@ a.h-download{
 	margin-bottom: 10px;
 	width:100%;
 	-webkit-appearance:none;
+	box-shadow: none;
+	background-color: #fff;
 }
 .submit{
 	display: block;
