@@ -183,7 +183,13 @@ a.h-download{
 	color:#8b909e;
 	line-height: 20px;
 }
-
+.ls-success{
+	display: block;
+	font-size: 16px;
+	color:#019174;
+	line-height: 100px;
+	text-align: center;
+}
 
 
 
