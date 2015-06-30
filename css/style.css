@@ -142,15 +142,15 @@ a.h-download{
 	width: 80%;
 	margin:40px auto;
 	position: relative;
-	padding: 30px 15px 20px;
+	padding: 35px 15px 20px;
 	border:1px solid #ccc;
 	border-radius: 4px;
 	background-color: #fff;
 }
 .close{
 	position: absolute;
-	right: 5px;
-	top:5px;
+	right: 0px;
+	top:0px;
 	width: 30px;
 	height: 30px;
 	background: url(../images/close.png) no-repeat center center / 13px 13px;
