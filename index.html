@@ -4,144 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
 	<title>拍宝详情</title>
+	<link rel="stylesheet" href="css/style.css">
 	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-	<style type="text/css">
-		*{
-			padding: 0;
-			margin:0; 
-			box-sizing:border-box;
-		}
-		.header{
-			padding: 15px 3%;
-			background-color: #EAEAEA;
-		}
-		.head-cont{
-			position: relative;
-			height: 50px;
-		}
-		.h-left{
-			width: 50px;
-			height: 50px;
-			position: absolute;
-			left:0;
-			top:0;
-		}
-		.h-left img{
-			display: block;
-			width:50px;
-		}
-		.h-right{
-			position: absolute;
-			right: 0;
-			top:0;
-			width:65px;
-		}
-		a.h-download{
-			display: block;
-			background-color: #DE3627;
-			font-size: 14px;
-			line-height: 40px;
-			height: 40px;
-			display: block;
-			text-align: center;
-			text-decoration: none;
-			color:#fff;
-			border-radius: 6px;
-			margin-top: 5px;
-		}
-		.h-center{
-			padding: 5px 70px 0 60px;
-			line-height: 1.2;
-			color:#666;
-		}
-		.h-center .font{
-			font-size: 20px;
-			color:#f00;
-		}
-		.cont-t{
-			font-size: 18px;
-			padding:15px 0 8px;
-			position:relative;
-			line-height: 30px;
-		}
-		.ctype{
-			background-color: #3299E0;
-			color: #fff;
-			position: absolute;
-			right:0;
-			bottom:10px;
-			width:50px;
-			height: 24px;
-			line-height: 24px;
-			text-align: center;
-			font-size: 13px;
-		}
-		.content{
-			padding: 10px;
-		}
-		.c-cl{
-			margin-top: 15px;
-		}
-		.ccl{
-			font-size: 16px;
-			line-height: 26px;
-			color:#A2A2A2;
-		}
-		.cteal{
-			padding:10px 0;
-		}
-		.c-title{
-			height: 24px;
-			margin:15px 0;
-			line-height: 24px;
-			border-left: 5px solid #EC8644;
-			font-size: 18px;
-			color:#242424;
-			padding-left: 5px;	
-
-		}
-		.c-info{
-			font-size: 14px;
-			color:#242424;
-			line-height: 25px;
-		}
-		.c-images{
-			
-		}
-		.img-item{
-			margin-bottom: 10px;
-		}
-		.img-item:last-child{
-			margin-bottom: 0;
-		}
-		.img-item img{
-			display: block;
-			width:100%;
-		}
-		.footer{
-			padding: 15px 10px;
-			overflow:hidden;
-		}
-		.footer .a{
-			float: left;
-			width:40%;
-			height: 40px;
-			line-height: 40px;
-			text-align: center;
-			text-decoration: none;
-			color:#fff;
-			font-size: 14px;
-			border-radius: 5px;
-		}
-		.footer .f-download{
-			float: left;
-			background-color: #FA0808;
-		}
-		.footer .f-login{
-			float: right;
-			background-color: #FBA500;
-		}
-	</style>
+	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
 	<header class="header">
@@ -187,8 +52,16 @@
 		</div>
 	</div>
 	<footer class="footer">
-		<a href="" class="a f-download">下载拍宝</a>
-		<a href="" class="a f-login">登录并收藏</a>
+		<a id="download" href="javascript:;" class="a f-download">下载拍宝</a>
+		<a id="login" href="javascript:;" class="a f-login">登录并收藏</a>
 	</footer>
+	<div id="ceng" class="login-wrap">
+		<div class="login-content">
+			<i id="close" class="close"></i>
+			<input type="text" class="name text">
+			<input type="password" class="passowrd text">
+			<a id="submit" class="submit">登录并收藏</a>
+		</div>
+	</div>
 </body>
 </html>
