@@ -184,7 +184,7 @@ a.h-download{
 	line-height: 20px;
 }
 .ls-success{
-	display: block;
+	display: none;
 	font-size: 16px;
 	color:#019174;
 	line-height: 100px;
