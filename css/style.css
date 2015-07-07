@@ -217,7 +217,7 @@ a.h-download{
 }
 .download-content .go-download{
 	display: block;
-	width: 120px;
+	width: 200px;
 	height: 45px;
 	margin:0 auto;
 	text-align: center;
@@ -227,6 +227,7 @@ a.h-download{
 	color:#fff;
 	font-size: 16px;
 	border-radius: 4px;
+	margin-bottom: 15px;
 }
 .download-content .go-download.disabled{
 	border-color: #dedede;
