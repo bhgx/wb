@@ -232,7 +232,10 @@ a.h-download{
 	left: 0;
 	top:0;
 	width: 100%;
+
 	display: none;
+	background-color: rgba(0,0,0,.6);
+	min-height: 400px;
 }
 .download-tipceng img{
 	display: block;
