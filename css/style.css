@@ -210,7 +210,7 @@ a.h-download{
 	margin-top: -80px;
 	margin-left: -100px;
 }*/
-.download-content .go-download{
+.go-download{
 	display: block;
 	width: 200px;
 	height: 45px;
@@ -228,10 +228,10 @@ a.h-download{
 	margin-left: -100px;
 }
 .d-ios{
-	bottom:20px;
+	bottom:40px;
 }
 .d-android{
-	bottom:80px;
+	bottom:100px;
 }
 .download-content .go-download.disabled{
 	border-color: #dedede;
