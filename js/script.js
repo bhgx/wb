@@ -62,9 +62,9 @@ $(function(){
 	if (is_weixn()){
 	    goDownload.onclick=function(e){
 	        e.preventDefault();
-	        $('#loadWrap').fadeIn(500);
+	        $('#loadTipCeng').fadeIn(500);
 	        setTimeout(function(){
-	        	$('#loadWrap').fadeOut(500);
+	        	$('#loadTipCeng').fadeOut(500);
 	        },3000)
 	        return false;
 	    }
