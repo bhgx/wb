@@ -232,6 +232,7 @@ a.h-download{
 	left: 0;
 	top:0;
 	width: 100%;
+	display: none;
 }
 .download-tipceng img{
 	display: block;
