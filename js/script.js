@@ -88,7 +88,6 @@ $(function(){
 		if(isIOS){
 		    $goDownloadIos.attr('href','javascript:;');
 		} else if (isAndroid) {
-		    //goDownloadAndroid.href="http://182.92.240.52/play/apk/paibao.apk?"+new Date().getTime();
 		    $goDownloadAndroid.attr('href',"http://182.92.240.52/play/apk/paibao.apk?"+new Date().getTime());
 		}
 	}
