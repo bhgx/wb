@@ -194,6 +194,8 @@ a.h-download{
 /*************下载和提示页面CSS**************/
 .download-wrap{
 	position: absolute;
+	left: 0;
+	top:0;
 	width: 100%;
 	height: 100%;
 	background: url(../images/download-bg.png) no-repeat center center;
