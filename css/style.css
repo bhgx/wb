@@ -201,25 +201,20 @@ a.h-download{
 	background: url(../images/d-d.png) no-repeat center center;
 	background-size: cover;
 }
-.download-content{
-	width:200px;
-	height: 160px;
+/*.download-content{
+	width:100%;
+	min-height: 300px;
 	position: absolute;
 	top:50%;
 	left: 50%;
 	margin-top: -80px;
 	margin-left: -100px;
-}
-.download-content img{
-	width:90px;
-	margin:0 auto 25px;
-	display: block;
-}
+}*/
 .download-content .go-download{
 	display: block;
 	width: 200px;
 	height: 45px;
-	margin:0 auto;
+	
 	text-align: center;
 	line-height: 45px;
 	text-decoration: none;
@@ -228,6 +223,15 @@ a.h-download{
 	font-size: 16px;
 	border-radius: 4px;
 	margin-bottom: 15px;
+	position: absolute;
+	left:50%;
+	margin-left: -100px;
+}
+.d-ios{
+	bottom:20px;
+}
+.d-android{
+	bottom:80px;
 }
 .download-content .go-download.disabled{
 	border-color: #dedede;
