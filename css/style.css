@@ -212,6 +212,7 @@ a.h-download{
 .download-content img{
 	width:60px;
 	margin:0 auto 25px;
+	display: block;
 }
 .download-content .go-download{
 	display: block;
