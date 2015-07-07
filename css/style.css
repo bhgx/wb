@@ -215,8 +215,8 @@ a.h-download{
 }
 .download-content .go-download{
 	display: block;
-	width: 80px;
-	height: 40px;
+	width: 120px;
+	height: 50px;
 	margin:0 auto;
 	text-align: center;
 	line-height: 40px;
@@ -224,7 +224,7 @@ a.h-download{
 	border:1px solid #fff;
 	color:#fff;
 	font-size: 16px;
-
+	border-radius: 4px;
 }
 .download-tipceng{
 	position: relative;
@@ -236,5 +236,6 @@ a.h-download{
 }
 .download-tipceng img{
 	display: block;
-	width: 100%;
+	width: 140px;
+	margin:0 auto;
 }
