@@ -235,7 +235,7 @@ a.h-download{
 	top:0;
 	width: 100%;
 	display: none;
-	background-color: #fff;
+	background: url(../images/d-bg.png) repeat;
 	min-height: 100%;
 }
 .download-tipceng img{
