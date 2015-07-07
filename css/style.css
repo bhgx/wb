@@ -201,7 +201,7 @@ a.h-download{
 }
 .download-content{
 	width:200px;
-	height: 140px;
+	height: 160px;
 	position: absolute;
 	top:50%;
 	left: 50%;
@@ -210,17 +210,17 @@ a.h-download{
 	background-color: #ccc;
 }
 .download-content img{
-	width:60px;
+	width:90px;
 	margin:0 auto 25px;
 	display: block;
 }
 .download-content .go-download{
 	display: block;
 	width: 120px;
-	height: 50px;
+	height: 45px;
 	margin:0 auto;
 	text-align: center;
-	line-height: 40px;
+	line-height: 45px;
 	text-decoration: none;
 	border:1px solid #fff;
 	color:#fff;
