@@ -60,7 +60,7 @@ $(function(){
 	var $goDownloadIos = $('#goDownloadIos');
 
 	//ios提示在开发中
-	$goDownloadIos.tap(function(){
+	$goDownloadIos.click(function(){
 		alert('在开发中……');
 		return false;
 
@@ -74,7 +74,7 @@ $(function(){
 	}
 
 	if (is_weixn()){
-	    $goDownloadAndroid.tap(function(e){
+	    $goDownloadAndroid.click(function(e){
 	    	if(!$goDownloadAndroid.hasClass('disabled')){
 	    		e.preventDefault();
 		    	$('#loadTipCeng').fadeIn(500);
