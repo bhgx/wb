@@ -56,23 +56,39 @@ $(function(){
 	var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); 
 
 	
-	var goDownload = document.getElementById('goDownload');
+	var $goDownloadAndroid = $('#goDownloadAndroid');
+	var $goDownloadIos = $('#goDownloadIos');
 
+	//ios提示在开发中
+	$goDownloadIos.tap(function(){
+		alert('在开发中……');
+		return false;
+
+	});
+
+	if(isIOS){
+		$goDownloadAndroid.addClass('disabled');
+	}
+	if(isAndroid){
+		$goDownloadIos.addClass('disabled');
+	}
 
 	if (is_weixn()){
-	    goDownload.onclick=function(e){
-	        e.preventDefault();
-	        $('#loadTipCeng').fadeIn(500);
-	        setTimeout(function(){
-	        	$('#loadTipCeng').fadeOut(500);
-	        },3000)
-	        return false;
-	    }
+	    $goDownloadAndroid.tap(function(e){
+	    	if(!$goDownloadAndroid.hasClass('disabled')){
+	    		e.preventDefault();
+		    	$('#loadTipCeng').fadeIn(500);
+		        setTimeout(function(){
+		        	$('#loadTipCeng').fadeOut(500);
+		        },3000);
+	    	}
+	    });
+
 	} else {
 		if(isIOS){
-		    goDownload.href="";
+		    goDownloadAndroid.href="";
 		} else if (isAndroid) {
-		    goDownload.href="http://182.92.240.52/play/apk/paibao.apk?"+new Date().getTime();
+		    goDownloadAndroid.href="http://182.92.240.52/play/apk/paibao.apk?"+new Date().getTime();
 		}
 	}
 	
