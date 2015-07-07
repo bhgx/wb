@@ -218,8 +218,8 @@ a.h-download{
 	text-align: center;
 	line-height: 45px;
 	text-decoration: none;
-	border:1px solid #fff;
-	color:#fff;
+	border:1px solid #dedede;
+	color:#dedede;
 	font-size: 16px;
 	border-radius: 4px;
 	margin-bottom: 15px;
@@ -233,9 +233,9 @@ a.h-download{
 .d-android{
 	bottom:100px;
 }
-.download-content .go-download.disabled{
-	border-color: #dedede;
-	color:#dedede;
+.go-download.can{
+	border-color: #fff;
+	color:#fff;
 }
 .download-tipceng{
 	position: relative;

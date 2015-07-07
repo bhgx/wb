@@ -67,15 +67,15 @@ $(function(){
 	});
 
 	if(isIOS){
-		$goDownloadAndroid.addClass('disabled');
+		$goDownloadIos.addClass('can');
 	}
 	if(isAndroid){
-		$goDownloadIos.addClass('disabled');
+		$goDownloadAndroid.addClass('can');
 	}
 
 	if (is_weixn()){
 	    $goDownloadAndroid.click(function(e){
-	    	if(!$goDownloadAndroid.hasClass('disabled')){
+	    	if($goDownloadAndroid.hasClass('can')){
 	    		e.preventDefault();
 		    	$('#loadTipCeng').fadeIn(500);
 		        setTimeout(function(){
