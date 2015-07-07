@@ -61,11 +61,10 @@ $(function(){
 
 	if (is_weixn()){
 	    goDownload.onclick=function(e){
-	    	alert('weixin')
 	        e.preventDefault();
-	        loadWrap.fadeIn(500);
+	        $('#loadWrap').fadeIn(500);
 	        setTimeout(function(){
-	        	loadWrap.fadeOut(500);
+	        	$('#loadWrap').fadeOut(500);
 	        },3000)
 	        return false;
 	    }
